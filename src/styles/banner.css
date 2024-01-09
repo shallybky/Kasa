@@ -1,0 +1,42 @@
+.banner {
+	position: absolute;
+}
+
+.banner > p {
+	color: white;
+	font-family: "Montserrat";
+	font-size: 40px;
+	position: relative;
+    z-index: 1;
+    left: 65%;
+    top: 50px;
+}
+
+.bannerunder > img {
+	margin-left: 53px;
+	width: 91%;
+	border-radius: 25px;
+	display: flex;
+	height: 223px;
+	filter: brightness(0.7);
+}
+
+.bannerunder {
+	margin-bottom: 32px;
+	margin-top: 32px;
+	margin-left: 32px;
+}
+
+@media (max-width: 768px){
+	.bannerunder > img {
+		margin-left: -88px;
+        width: 92vw;
+        height: 150px;
+	}
+
+	.banner > p{
+		font-size: 24px;
+        left: -13%;
+        top: 19px
+	}
+  }

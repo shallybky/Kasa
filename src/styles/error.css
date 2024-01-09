@@ -1,0 +1,25 @@
+#errorElement {
+    color : #FF6060;
+    font-size: 288px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+    margin: 75px 0px 0px 0px;
+    margin-top: 20px;
+}
+
+#errorElementP {
+    color : #FF6060;
+    font-size: 36px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+#link {
+    color : #FF6060;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    margin-left: 40rem;
+}

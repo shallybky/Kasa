@@ -1,0 +1,28 @@
+.tag{
+	background-color: #FF6060;
+	height: 19px;
+	width: 117px;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.tag > p {
+	color: white;
+	font-family: 'Montserrat';
+	font-size: 9px;
+	text-align: center;
+	margin-top: 3px;
+	white-space: pre-wrap; 
+}
+
+@media (max-width: 768px){
+	.tag{
+		height: 18px;
+		margin-right: 4px;
+	}
+
+	.tag > p {
+		font-size: 7px;
+		margin-top: 5px;
+	}
+}
